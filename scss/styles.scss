@@ -1,8 +1,15 @@
 @use "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
+%semibold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
 
 .content {
-    width: 1195px;
+    width: 100%;
+    max-width: 1195px;
     margin: 0px auto;
 }
 
@@ -26,7 +33,6 @@
         width: 442px;
         display: flex;
         justify-content: space-between;
-        float: right;
     }
     .menu__link {
         text-decoration: none;
@@ -39,5 +45,71 @@
             opacity: 1;
             transition: opacity 0.2s linear;
         }
+    }
+}
+
+.intro {
+    background: url(../images/intro_bg.jpg);
+    background-size: cover;
+    height: 641px;
+    padding-top: 108px;
+    box-sizing: border-box;
+    &__wrapper {
+        padding-left: 36px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__h1 {
+        color: #ffffff;
+        max-width: 516px;
+        font-family: "Raleway", sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 33px;
+        &:after {
+            content: "";
+            width: 64px;
+            height: 2px;
+            background-color: #ffffff;
+            display: block;
+            margin-top: 35px;
+            margin-bottom: 40px;
+        }
+    }
+    &__subtitle {
+        opacity: 0.8;
+        max-width: 464px;
+        color: #ffffff;
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+    &__button {
+        display: block;
+        color: #ffffff;
+        @extend %semibold;
+        text-decoration: none;
+        font-size: 15px;
+        width: 131px;
+        height: 38px;
+        border: 2px #ffffff solid;
+        text-align: center;
+        line-height: 38px;
+        margin-top: 40px;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.356);
+            transition: background-color 0.2s linear;
+        }
+    }
+    &__signup {
+        height: 362px;
+        width: 362px;
+        border-radius: 2px;
+        background: #000;
+        margin-top: 32px;
+        margin-right: 58px;
     }
 }
