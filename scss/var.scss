@@ -1,0 +1,13 @@
+$tr_time: 0.3s linear;
+$bgc_tr: background-color $tr_time;
+
+%semibold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+%spb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

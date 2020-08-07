@@ -1,0 +1,11 @@
+.social {
+    height: 105px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    &__wrapper {
+        @extend %spb;
+        height: 100%;
+        padding-left: 37px;
+        padding-right: 75px;
+        box-sizing: border-box;
+    }
+}

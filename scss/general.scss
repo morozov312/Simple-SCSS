@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
+.content {
+    width: 100%;
+    max-width: 1195px;
+    margin: 0px auto;
+}
+
+.download-button {
+    display: block;
+    color: #ffffff;
+    @extend %semibold;
+    text-decoration: none;
+    font-size: 15px;
+    width: 131px;
+    height: 38px;
+    border: 2px #ffffff solid;
+    text-align: center;
+    line-height: 38px;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.356);
+        transition: $bgc_tr;
+    }
+}
+
+.h3 {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.orange-button {
+    color: #ffffff;
+    @extend %semibold;
+    font-size: 15px;
+    background-color: #ff8b38;
+    text-decoration: none;
+    text-align: center;
+    width: 121px;
+    border-radius: 3px;
+    &:hover {
+        background-color: #333333;
+        transition: $bgc_tr;
+    }
+}
