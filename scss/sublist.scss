@@ -1,0 +1,28 @@
+.sublist {
+    background-color: #ffffff;
+    height: 596px;
+    &__warpper {
+        @extend %spb;
+        height: 100%;
+    }
+    &__description {
+        max-width: 430px;
+    }
+    &__h3 {
+        &:after {
+            @extend %title-after;
+        }
+    }
+    &__subtitle {
+        margin-top: 46px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__circle {
+        width: 40px;
+        height: 40px;
+    }
+    &__text {
+        max-width: 360px;
+    }
+}

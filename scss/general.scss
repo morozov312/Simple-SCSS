@@ -53,3 +53,11 @@
         transition: $bgc_tr;
     }
 }
+
+.circle {
+    border: 2px #ff9a52 solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

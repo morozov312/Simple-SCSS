@@ -11,3 +11,12 @@ $bgc_tr: background-color $tr_time;
     justify-content: space-between;
     align-items: center;
 }
+
+%title-after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 30px 0;
+}

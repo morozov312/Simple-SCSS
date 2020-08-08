@@ -362,10 +362,19 @@ textarea {
   font-weight: 600;
 }
 
-.social__wrapper {
+.sublist__warpper, .social__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sublist__h3:after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #ff8b38;
+  margin: 30px 0;
 }
 
 .content {
@@ -417,6 +426,14 @@ textarea {
 .orange-button:hover {
   background-color: #333333;
   transition: background-color 0.3s linear;
+}
+
+.circle {
+  border: 2px #ff9a52 solid;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -539,6 +556,7 @@ textarea {
   background-color: #ff9b51;
   bottom: 0;
   left: 0;
+  border-radius: 3px;
   font-size: 15px;
   color: #ffffff;
 }
@@ -603,4 +621,27 @@ textarea {
   height: 46px;
   line-height: 46px;
   margin-bottom: 33px;
+}
+
+.sublist {
+  background-color: #ffffff;
+  height: 596px;
+}
+.sublist__warpper {
+  height: 100%;
+}
+.sublist__description {
+  max-width: 430px;
+}
+.sublist__subtitle {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.sublist__circle {
+  width: 40px;
+  height: 40px;
+}
+.sublist__text {
+  max-width: 360px;
 }
