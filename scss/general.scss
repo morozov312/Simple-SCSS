@@ -24,6 +24,19 @@
     }
 }
 
+.h2 {
+    color: #212121;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-transform: uppercase;
+    &:after{
+        @extend %title-after;
+        margin: 30px auto;
+    }
+}
+
 .h3 {
     color: #333333;
     font-family: "Open Sans";

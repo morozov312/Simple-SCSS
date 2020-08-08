@@ -368,7 +368,7 @@ textarea {
   align-items: center;
 }
 
-.picture__h3:after, .sublist__h3:after {
+.picture__h3:after, .sublist__h3:after, .h2:after {
   content: "";
   display: block;
   width: 64px;
@@ -397,6 +397,18 @@ textarea {
 .download-button:hover {
   background-color: rgba(255, 255, 255, 0.356);
   transition: background-color 0.3s linear;
+}
+
+.h2 {
+  color: #212121;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+.h2:after {
+  margin: 30px auto;
 }
 
 .h3 {
@@ -672,4 +684,35 @@ textarea {
   margin: auto;
   position: absolute;
   right: 0;
+}
+
+.awesome {
+  height: 592px;
+  background-color: #ffffff;
+}
+.awesome__wrapper {
+  box-sizing: border-box;
+  padding-top: 108px;
+}
+.awesome_title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.awesome__h3 {
+  margin: 29px 0;
+}
+.awesome__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.awesome__item {
+  max-width: 350px;
+  text-align: center;
+}
+.awesome__circle {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
 }
