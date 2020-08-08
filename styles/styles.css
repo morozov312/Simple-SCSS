@@ -357,7 +357,7 @@ textarea {
   padding: 0.2em 0;
 }
 
-.intro .signup__submit, .orange-button, .download-button {
+.cards__subtext p, .intro .signup__submit, .orange-button, .download-button {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -715,4 +715,93 @@ textarea {
   height: 70px;
   display: inline-block;
   line-height: 70px;
+}
+
+.pricing {
+  height: 883px;
+  background-color: #f5f5f5;
+}
+.pricing__wrapper {
+  box-sizing: border-box;
+  padding-top: 108px;
+}
+.pricing__description {
+  text-align: center;
+}
+
+.cards {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 32px;
+}
+.cards__item {
+  width: 343px;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+.cards-top-item {
+  padding-top: 0;
+}
+.cards__header {
+  height: 59px;
+  background-color: #333333;
+  text-align: center;
+  line-height: 59px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+.cards__price {
+  height: 100px;
+  background-color: #333333;
+  text-align: center;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 94px;
+  font-weight: 700;
+}
+.cards-bucks {
+  font-size: 35px;
+}
+.cards__subtext {
+  text-align: center;
+  height: 51px;
+  background-color: #333333;
+}
+.cards__subtext p {
+  line-height: 51px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 14px;
+}
+.cards__mp {
+  background-color: #ff8b38;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cards-subline {
+  border-bottom: 5px #ff8b38 solid;
+}
+.cards__feature {
+  height: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1px 0;
 }
