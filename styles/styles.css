@@ -368,7 +368,7 @@ textarea {
   align-items: center;
 }
 
-.sublist__h3:after {
+.picture__h3:after, .sublist__h3:after {
   content: "";
   display: block;
   width: 64px;
@@ -644,4 +644,32 @@ textarea {
 }
 .sublist__text {
   max-width: 360px;
+}
+
+.picture {
+  height: 524px;
+  background-color: #f5f5f5;
+}
+.picture__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+  padding-left: 39px;
+  box-sizing: border-box;
+  position: relative;
+}
+.picture__description {
+  max-width: 473px;
+}
+.picture__h3 {
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+.picture__icon {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  right: 0;
 }

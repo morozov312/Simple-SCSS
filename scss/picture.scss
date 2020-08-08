@@ -1,0 +1,30 @@
+.picture {
+    height: 524px;
+    background-color: #f5f5f5;
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 75px;
+        padding-left: 39px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    &__description {
+        max-width: 473px;
+    }
+    &__h3 {
+        padding-top: 32px;
+        box-sizing: border-box;
+        &:after {
+            @extend %title-after;
+        }
+    }
+    &__icon {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        right: 0;
+    }
+}
