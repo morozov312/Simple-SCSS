@@ -864,3 +864,30 @@ textarea {
   padding: 0 57px;
   box-sizing: border-box;
 }
+
+.axure {
+  background: url(../images/u25_state0.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.axure__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.axure__subtitle {
+  margin-bottom: 33px;
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+}
+.axure h2 {
+  color: #fff;
+}
+.axure h2:after {
+  background-color: #fff;
+}
