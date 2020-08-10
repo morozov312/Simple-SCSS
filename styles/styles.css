@@ -949,3 +949,14 @@ textarea {
   border: none;
   margin-top: 35px;
 }
+
+.footer {
+  background-color: #000000;
+  height: 100px;
+  text-align: center;
+}
+.footer__icons {
+  height: 23px;
+  display: inline-block;
+  margin: 20px 0;
+}
