@@ -28,14 +28,14 @@
         resize: none;
         border: none;
         border-bottom: 1px solid #d6d6d6;
-        @extend %contact-form;
+        @include form-font;
     }
     &__input {
         width: 527px;
         height: 31px;
         border: none;
         border-bottom: 1px solid #d6d6d6;
-        @extend %contact-form;
+        @include form-font;
     }
     &__form-left {
         display: flex;
@@ -50,3 +50,4 @@
         margin-top: 35px;
     }
 }
+@include placeholder;

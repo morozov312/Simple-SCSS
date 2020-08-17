@@ -377,13 +377,6 @@ textarea {
   margin: 30px 0;
 }
 
-.contact__input, .contact textarea {
-  color: #bdbdbd;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .content {
   width: 100%;
   max-width: 1195px;
@@ -564,6 +557,8 @@ textarea {
   border: none;
   border-bottom: 1px #bdbdbd solid;
   margin: 29px 40px;
+  color: #86878b;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
 }
@@ -582,6 +577,34 @@ textarea {
 .intro .signup__submit:hover {
   background-color: #ff9c51bb;
   transition: background-color 0.3s linear;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .social {
@@ -930,12 +953,20 @@ textarea {
   resize: none;
   border: none;
   border-bottom: 1px solid #d6d6d6;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
 }
 .contact__input {
   width: 527px;
   height: 31px;
   border: none;
   border-bottom: 1px solid #d6d6d6;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
 }
 .contact__form-left {
   display: flex;
@@ -948,6 +979,34 @@ textarea {
   height: 46px;
   border: none;
   margin-top: 35px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .footer {

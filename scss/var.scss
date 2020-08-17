@@ -21,9 +21,24 @@ $bgc_tr: background-color $tr_time;
     margin: 30px 0;
 }
 
-%contact-form {
-    color: #bdbdbd;
+@mixin form-font($color: #86878b) {
+    color: $color;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
+}
+
+@mixin placeholder{
+    input::-webkit-input-placeholder , textarea::-webkit-input-placeholder {
+        @include form-font(#bdbdbd);
+    }
+    input::-moz-placeholder , textarea::-moz-placeholder {
+        @include form-font(#bdbdbd);
+    }
+    input:-moz-placeholder , textarea:-moz-placeholder {
+        @include form-font(#bdbdbd);
+    }
+    input:-ms-input-placeholder , textarea:-ms-input-placeholder {
+        @include form-font(#bdbdbd);
+    }
 }

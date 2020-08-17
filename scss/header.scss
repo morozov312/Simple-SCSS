@@ -106,8 +106,7 @@
             border: none;
             border-bottom: 1px #bdbdbd solid;
             margin: 29px 40px;
-            font-size: 14px;
-            font-weight: 400;
+            @include form-font;
         }
         &__submit {
             width: 100%;
@@ -128,3 +127,4 @@
         }
     }
 }
+@include placeholder;
